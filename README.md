@@ -3,7 +3,7 @@
 Simple layer 4 (TCP) proxy based on socat to expose docker.sock in your network. 
 
 > [!WARNING]  
-> Use this image at your own risk. Some conigurations might enable attackers to control your docker deamon!
+> Use this image at your own risk. Some configurations might enable attackers to control your docker deamon!
 
 ## Example
 
@@ -74,7 +74,7 @@ services:
 
 #### Corefile
 
-Change `example.com` to your hostname`
+Change `example.com` to your hostname.
 
 ```Corefile
 . {
@@ -95,7 +95,7 @@ HOSTNAME=example.com
 TZ=Etc/UTC
 ```
 
-### Start
+#### Start
 
 ```sh
 docker compose up -d
